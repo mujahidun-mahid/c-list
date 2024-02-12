@@ -7,7 +7,7 @@ int main(){
     scanf(" %c",&a);
 
 //He had to use %d because of decimal value
-    printf("Ascii value is : %d",a);
+    printf("Ascii value is : %d",a,a);
 
     return 0;
 }
