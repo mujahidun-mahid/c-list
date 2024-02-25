@@ -1,5 +1,12 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
 
-    printf("")
+    int i;
+
+        for (i = 1; i <=999; ++i)
+    {
+        printf("%d ", i);
+    }
+    return 0;
 }

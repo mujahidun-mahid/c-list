@@ -1,19 +1,17 @@
 #include <stdio.h>
-
 int main()
 {
     int number;
-
-    printf("Enter an Integer: ");
+    printf("Enter an integer : ");
     scanf("%d", &number);
 
     if (number < 0)
     {
-        printf("You entered a negative number: %d\n", number);
+        printf("Your entered %d is a negative number\n", number);
     }
     else
     {
-        printf("You entered a positive number.");
+        printf("You entered negative number");
     }
 
     return 0;
