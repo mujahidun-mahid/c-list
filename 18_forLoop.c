@@ -1,15 +1,10 @@
-#include<stdio.h>
-int main(){
-    int num , i  , sum ;
-
-    printf("Enter a positive integer : ");
-    scanf("%d",&num);
-
-    for (i = 1; i <= num ; i++)
+#include <stdio.h>
+int main()
+{
+    int i;
+    for (i = 1; i <= 10; i++)
     {
-        sum = sum+i;
+        printf(" %d ", i );
     }
-    printf("sum = %d",sum);
-    
     return 0;
 }
